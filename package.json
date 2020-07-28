@@ -1,0 +1,24 @@
+{
+  "name": "fe-knowledge",
+  "version": "1.0.0",
+  "description": "前端面试相关知识；面试题等",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ifonlybean/fe-knowledge.git"
+  },
+  "author": "ifonlybean",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ifonlybean/fe-knowledge/issues"
+  },
+  "homepage": "https://github.com/ifonlybean/fe-knowledge/blob/master/README.md",
+  "devDependencies": {
+    "vuepress": "^1.5.2"
+  }
+}
