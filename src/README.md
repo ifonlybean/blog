@@ -1,15 +1,22 @@
 ---
 home: true
-heroImage: /vue.png
-heroText: blog-demo
-tagline: 博客示例
-actionText: 快速上手 →
-actionLink: /blog/FirstBlog.md
-features:
-- title: 简洁至上
-  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-- title: Vue驱动
-  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使>用 Vue 来开发自定义主题。
-- title: 高性能
-  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作>为 SPA 运行。
+heroImage: /logo.jpeg
+actionText: Get Started →
+actionLink: /pages/index/
+footer: MIT Licensed | Copyright © 2018-2020 Bean
 ---
+
+<div class="features">
+  <div class="feature">
+    <h2>关于博客</h2>
+    <p>前端基础知识整理 | 面试常见问题 | 一些小技巧</p>
+  </div>
+  <div class="feature">
+    <h2>关于我</h2>
+    <p>一个前端路上折腾的</p>
+  </div>
+  <div class="feature">
+    <h2>关于未来的计划</h2>
+    <p>最初是为了面试整理，之后计划把工作中的所思所得一期整理记录，另开一个站点记录最近在做的一些脚手架、多端复用等框架的源码分析，敬请期待~</p>
+  </div>
+</div>

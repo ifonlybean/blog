@@ -1,8 +1,8 @@
 module.exports = {
     base: '/fe-knowledge/',
-    title: '我的博客',
-    port: '8899',
-    description: 'Vuepress blog demo',
+    title: 'Ifonlybean的博客',    
+    description: '前端面试知识整理',
+    port: '8889',
     head: [
         ['link', {
             rel: 'icon',

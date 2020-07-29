@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vuepress dev src",
-    "build": "vuepress build src"
+    "serve": "vuepress dev src",
+    "build": "vuepress build src",
+    "deploy": "sh deploy.sh"
   },
   "repository": {
     "type": "git",
