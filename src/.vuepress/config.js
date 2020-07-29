@@ -1,4 +1,6 @@
-module.exports = {
+const { fs, path } = require('@vuepress/shared-utils')
+
+module.exports = ctx => ({
     base: '/fe-knowledge/',
     title: 'Ifonlybean的博客',    
     description: '前端面试知识整理',
@@ -21,16 +23,14 @@ module.exports = {
         }],
         sidebar: {
             '/pages/vue-cli/': [{
-                title: '',
-                path: '/pages/vue-cli/',
+                title: '配置',
                 collapsable: false,
                 children: [
                     ''
                 ]
             }],
             '/pages/index/': [{
-                title: '',
-                path: '/pages/index/',
+                title: '配置',
                 collapsable: false,
                 children: [
                     ''
@@ -38,4 +38,4 @@ module.exports = {
             }]
         }
     }
-}
+})
